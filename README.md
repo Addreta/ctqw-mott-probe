@@ -18,7 +18,7 @@ and shows that CTQW observables detect the Mott crossover as U/t varies.
 | Step | Tool | Key quantity |
 |------|------|-------------|
 | Exact diagonalization | QuSpin | Ground state |GS⟩ |
-| OBDM construction | NumPy | ρ_ij = ⟨GS|c†_i c_j|GS⟩ |
+| OBDM construction | QuSpin + NumPy | ρ_ij = ⟨GS|c†_i c_j|GS⟩ |
 | CTQW centrality | NumPy (spectral decomp.) | Long-time avg. occupation π_j |
 | Classical eigenvector centrality | NumPy | Leading eigenvector of ρ |
 | Spectral gap | NumPy | λ_1 − λ_2 of ρ |
