@@ -28,10 +28,8 @@ and shows that CTQW observables detect the Mott crossover as U/t varies.
   single-particle correlations localize as the system enters the Mott phase
 - Spectral gap of the OBDM graph peaks non-monotonically at U/t ≈ 6–8, 
   providing a graph-theoretic signature of the Mott crossover
-- CTQW centrality remains flat across all sites for all U/t — quantum 
-  interference erases the edge-bulk distinction that classical EC detects
-- Quantum-classical centrality divergence ||π_CTQW − π_EC||₂ grows 
-  monotonically with U/t, quantifying interference deepening into Mott phase
+- CTQW centrality peaks at bulk sites more sharply than classical EC — uniform initialization selectively weights symmetric eigenmodes of the OBDM, producing stronger spatial localization of centrality than the classical leading-eigenvector measure
+- Quantum-classical divergence is non-monotonic, peaking near U/t = 4 at the onset of the Mott crossover and decreasing in the deep Mott phase as both measures converge when the OBDM approaches the identity
 
 ## Notebooks
 - `ctqw_hubbard.ipynb` — ED, OBDM construction, CTQW analysis, all plots
